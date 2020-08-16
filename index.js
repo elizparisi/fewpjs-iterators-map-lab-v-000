@@ -16,7 +16,7 @@ const tutorials = [
 } 
 */
 
-const titleCased(){
+const titleCased = (){
   tutorials.map(tutorial => tutorial.split(' ')
   
   for (let i=0; i < tutorial.length; i++){
