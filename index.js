@@ -17,16 +17,10 @@ const tutorials = [
 */
 
 function titleCased(){
-  return tutorials.map(tutorial => tutorial.split(' '));
+  tutorials.map(tutorial => tutorial.split(' '));
   
   for (let i=0; i < tutorial.length; i++){
-    tutorial[i] = 
+    tutorial[i] = `${tutorial[i].charAt(0).toUpperCase()}${tutorial[i].slice(1)}`
   }
+  return tutorial.join(' ');
 }
-
-function titleCase(str) {
-  return str.toLowerCase().split(' ').map(function(word) {
-    return (word.charAt(0).toUpperCase() + word.slice(1));
-  }).join(' ');
-}
-titleCase("I'm a little tea pot");
