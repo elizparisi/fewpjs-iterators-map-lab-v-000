@@ -19,7 +19,9 @@ const tutorials = [
 function titleCased(){
   return tutorials.map(tutorial => tutorial.split(' '));
   
-  for (let i=0; i < )
+  for (let i=0; i < tutorial.length; i++){
+    
+  }
 }
 
 function titleCase(str) {
