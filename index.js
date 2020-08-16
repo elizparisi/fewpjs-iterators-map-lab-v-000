@@ -14,3 +14,5 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+const titleCased = tutorials.map(tutorial => tutorial.)
