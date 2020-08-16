@@ -19,7 +19,7 @@ const tutorials = [
 const titleCased = (){
   return tutorials.map(tutorial => {tutorial.split(' ')
   
-  for (let i=0; i < tutorial.length; i++){
+  for (let i = 0; i < tutorial.length; i++){
     tutorial[i] = `${tutorial[i].charAt(0).toUpperCase()}${tutorial[i].slice(1)}`
     }
     return tutorial.join(' ');
