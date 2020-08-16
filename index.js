@@ -20,7 +20,7 @@ function titleCased(){
   return tutorials.map(tutorial => tutorial.split(' '));
   
   for (let i=0; i < tutorial.length; i++){
-    
+    tutorial[i] = 
   }
 }
 
