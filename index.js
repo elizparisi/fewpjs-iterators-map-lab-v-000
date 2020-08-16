@@ -17,5 +17,14 @@ const tutorials = [
 */
 
 function titleCased(){
-  tutorials.map(tutorial => tutorial.split(' '))
+  return tutorials.map(tutorial => tutorial.split(' '));
+  
+  for (let i=0; i < )
 }
+
+function titleCase(str) {
+  return str.toLowerCase().split(' ').map(function(word) {
+    return (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
+}
+titleCase("I'm a little tea pot");
