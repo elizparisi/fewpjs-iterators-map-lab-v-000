@@ -21,5 +21,5 @@ function titleCased(){
   tutorials.map(function(tutorials){
   tutorial.split(' ');
   }
-  
+  return result;
 }
