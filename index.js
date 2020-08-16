@@ -17,9 +17,7 @@ const tutorials = [
 */
 
 function titleCased(){
-  let result = [];
-  tutorials.map(function(tutorials){
+  let result = tutorials.map(function(tutorial){
   tutorial.split(' ');
-  }
-  return result;
+  })
 }
